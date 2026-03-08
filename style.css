@@ -94,6 +94,7 @@ header {
   background-image:
     linear-gradient(
       to right,
+      rgba(18, 38, 87, 0.88) 4%,
       rgba(34, 71, 164, 0.85) 40%,
       rgba(25, 44, 112, 0.1) 100%
     ),
@@ -169,8 +170,7 @@ header {
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s ease;
-  margin-bottom: 20px;
-
+  margin-bottom: 38px;
 }
 .header__button__call {
   color: black;
@@ -206,37 +206,52 @@ header {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  padding: 28px 0px;
+  border-top: 1px solid rgba(255, 255, 255, 0.208);
 }
-.details__coverage{
+.details__coverage {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
-.details__text{
+.details i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: #c9a030e9;
+  background-color: #c9a03040;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.details__text {
   display: flex;
   flex-direction: column;
+  align-items: start;
+  justify-content: center;
   gap: 2px;
 }
-.details__Header1{
-  font-size: 13px;
+.details__Header1 {
+  font-size: 12px;
   font-weight: 500;
   color: white;
 }
-.details__Header1__sub{
-  font-size: 11px;
+.details__Header1__sub {
+  font-size: 10px;
   font-weight: lighter;
   color: white;
 }
 
 /* Hours */
-.details__hours{
+.details__hours {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
 
 /* Rated */
-.details__rated{
+.details__rated {
   display: flex;
   flex-direction: row;
   gap: 10px;
