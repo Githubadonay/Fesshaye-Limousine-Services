@@ -317,3 +317,33 @@ header {
   border-top: 1px solid #c9a030;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 12px 40px;
 }
+
+/* Experience Section Styles */
+.experience__section {
+  padding: 120px 0;
+  background-color: #f0f0f0;
+  background-color: var(--primary-color);
+}
+.experience__container {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+}
+.experience__detail{
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+}
+.experience__title{
+  color: white;
+}
+.experience__subtitle{
+  color: #d0d8f0c8;
+  font-size: 17px;
+  font-weight: 400;
+  max-width: 500px;
+  line-height: 1.6;
+  text-align: center;
+}
